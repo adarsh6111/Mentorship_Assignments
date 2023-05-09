@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int temp;
+    cout<<"enter temp in celcius : ";
+    cin>>temp;
+    int f = temp*(9/5)+32;
+    cout<<"temp in farenheit is : "<<f;
+    
+    return 0;
+}
