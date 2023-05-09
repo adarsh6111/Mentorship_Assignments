@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int a,b,c,d,e;
+    cout<<"enter marks";
+    cin>>a>>b>>c>>d>>e;
+    cout<<"sum is : "<<a+b+d+c+e<<" percentage is : "<<(a+b+c+d+e)/5<<"%";
+    return 0;
+}
