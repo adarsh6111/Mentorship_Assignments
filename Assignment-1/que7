@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    vector<int>temp;
+    int a,b,c;
+    cout<<"enter 3 numbers : ";
+    cin>>a>>b>>c;
+    temp.push_back(a);
+    temp.push_back(b);
+    temp.push_back(c);
+    sort(temp.begin(),temp.end());
+    cout<<"greatest number is : "<<temp[temp.size()-1];
+
+    return 0;
+}
