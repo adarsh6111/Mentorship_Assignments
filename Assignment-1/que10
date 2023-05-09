@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a,b,c,d,e;
+    cout<<"enter marks of 5 subjects : ";
+    cin>>a>>b>>c>>d>>e;
+    float percentage = (a+b+c+d+e)/5;
+    if(percentage>89) cout<<"A grade";
+    else if(percentage >79 ) cout<<"B grade";
+    else if(percentage >59 ) cout<<"C grade";
+    else if(percentage ) cout<<"D grade";
+ return 0;
+}
