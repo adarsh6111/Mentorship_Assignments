@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int n;
+    int on=0,off=1,c=0;
+    cin>>n;
+    while(n){
+        cout<<c<<" ";
+        on =off;
+        off= c;
+        c = on+off;
+        n--;
+    }
+    return 0;
+
+}
+
