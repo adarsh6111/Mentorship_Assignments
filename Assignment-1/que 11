@@ -1,0 +1,29 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a,b;
+    char d;
+    cin>>a>>d>>b;
+    // cout<<a<<d<<b;
+    switch (d)
+    {
+    case '+':
+        cout<<a+b;
+        break;
+    case '-':
+        cout<<a-b;
+        break;
+    case '*':
+        cout<<a*b;
+        break;
+    case '/':
+        float ans;
+        ans = float(a/b);
+        cout<<ans;
+        break;
+    default:
+        cout<<"choice is incorrect";
+        break;
+    }
+    return 0;
+}
