@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int rem,n,y=0;
+    cin>>n;
+    while(n){
+        rem = n%10;
+        y = 10*y+rem;
+        n = n/10;
+    }
+    cout<<"reversed is "<<y;
+    return 0;
+
+}
+
