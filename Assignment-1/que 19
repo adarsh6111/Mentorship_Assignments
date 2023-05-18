@@ -1,0 +1,32 @@
+#include<bits/stdc++.h>
+using namespace std;
+int arm(int n){
+    int digit=0,sum=0,r=0;
+    int adarsh = n;
+    while(n){
+        n=n/10;
+        digit++;    
+    }
+    int temp = adarsh;
+    while(adarsh){
+        r = adarsh%10;
+        sum+=pow(r,digit);
+        n = adarsh/10;
+    }
+    if(sum==temp)
+    return 1;
+    else
+    return 0;
+    
+};
+int main()
+{
+    
+    for(int i=1;i<101;i++)
+    {
+        if(arm(i)) cout<<i<<" ";
+
+    }
+    return 0;
+}
+
