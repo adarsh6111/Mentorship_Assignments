@@ -2,11 +2,11 @@
 using namespace std;
 
 int main(){
-    cout<<"enter p,r,t";
+    cout<<"input the value of p,r,t";
     float p,r,t;
     cin>>p>>r>>t;
     float si = (p*r*t)/100;
-    cout<<"si is : "<<si;
+    cout<<"simple interest is : "<<si;
     float compound = p*pow((1 + (r)),t);
     cout<<"compound interest is : "<<compound;
     return 0;
