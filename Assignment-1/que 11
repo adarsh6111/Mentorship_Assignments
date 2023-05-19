@@ -2,10 +2,10 @@
 using namespace std;
 int main(){
     int a,b;
-    char d;
-    cin>>a>>d>>b;
+    char sv;
+    cin>>a>>sv>>b;
     // cout<<a<<d<<b;
-    switch (d)
+    switch (sv)
     {
     case '+':
         cout<<a+b;
@@ -22,7 +22,7 @@ int main(){
         cout<<ans;
         break;
     default:
-        cout<<"choice is incorrect";
+        cout<<"choice is invalid";
         break;
     }
     return 0;
