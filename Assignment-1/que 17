@@ -8,7 +8,7 @@ int main(){
         y = y+rem;
         n=n/10;
     }
-    cout<<"sum of digit  "<<y;
+    cout<<"sum of digit is "<<y;
     return 0;
 
 }
