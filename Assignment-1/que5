@@ -7,6 +7,6 @@ int main(){
     c = a;
     a = b;
     b = c;
-    cout<<"swapped values are : "<<a<<" "<<b<<endl;
+    cout<<"swapping values are: "<<a<<" "<<b;
     return 0;
 }
