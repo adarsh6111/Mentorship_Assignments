@@ -9,7 +9,7 @@ int main()
         y = 10*y+rem;
         n = n/10;
     }
-    cout<<"reversed is "<<y;
+    cout<<"reversed of given number is "<<y;
     return 0;
 
 }
