@@ -2,12 +2,17 @@
 using namespace std;
 int main(){
     int a,b,c,d,e;
+    float f;
     cout<<"enter marks of 5 subjects : ";
     cin>>a>>b>>c>>d>>e;
-    float percentage = (a+b+c+d+e)/5;
-    if(percentage>89) cout<<"A grade";
-    else if(percentage >79 ) cout<<"B grade";
-    else if(percentage >59 ) cout<<"C grade";
-    else if(percentage ) cout<<"D grade";
+    f=(a+b+c+d+e)%5;
+    if(f>89&f<=100)
+    cout<<"A grade";
+    else if(f >79&f<=89)
+    cout<<"B grade";
+    else if(f >59 & f<=79)
+    cout<<"C grade";
+    else if(f<=59 )
+    cout<<"D grade";
  return 0;
 }
