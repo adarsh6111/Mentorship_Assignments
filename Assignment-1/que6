@@ -4,6 +4,8 @@ int main(){
     int a,b;
     cout<<"enter two numbers : ";
     cin>>a>>b;
-    (a==b)?cout<<"they are equal":cout<<"they are not equal";
+    if(a==b)
+    cout<<" equal";
+    cout<<" not equal";
     return 0;
 }
