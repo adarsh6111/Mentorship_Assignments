@@ -1,11 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
-float PI = 3.14;
 int main(){
-    int radius;
-    cin>>radius;
-    cout<<setprecision(4);
-    cout<<"circumference is : "<<2*PI*radius<<endl;
-    cout<<"area is : "<<PI*radius*radius;
+float pie=3.14,area,circum;
+int r;
+    cin>>r;
+   area=pie*r*r;
+   circum=2*pie*r
+    cout<<"circumference is : "<<circum;
+    cout<<"area is : "<<area;
     return 0;
 }
