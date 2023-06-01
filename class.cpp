@@ -28,10 +28,10 @@ using namespace std;
         }
         void stu_data(){
             cout<<<<" "<<this->roll<<" "<<this-<math<<" "<<this-<chemist<<" "<<this-<physic<< this-<percent<<end1;
-            private:
-                int stu_roll;
-                int this->stu_math,this->stu_physic,this->chemist;
-        }
+}
+private:
+    int stu_roll;
+    int stu_math,stu_physic,chemist;
     };
 int main(){
     student adarsh;
